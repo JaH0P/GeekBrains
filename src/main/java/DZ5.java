@@ -5,7 +5,7 @@ public class DZ5 {
         empCorp[1] = new Employee("Тимофеев Альфред", "Creator", "Timofeev@gmail.com", "89152192222",50000,32);
         empCorp[2] = new Employee("Куликов Прохор", "Water pot", "Kulikov@gmail.com", "89152193333",10000,43);
         empCorp[3] = new Employee("Жданов Ибрагил", "EnvelopeLicker", "Zhdanov@gmail.com", "89152194444",5000,18);
-        empCorp[4] = new Employee("Антонов Афанасий", "GrinderPencil", "Antonov@gmail.com", "89152195555",3000,21);
+        empCorp[4] = new Employee("Антонов Афанасий", "GrinderPencil", "Antonov@gmail.com", "89152195556",3000,21);
         for (Employee employee : empCorp)
             if (employee.getAge()>40)
                 System.out.println(employee);
